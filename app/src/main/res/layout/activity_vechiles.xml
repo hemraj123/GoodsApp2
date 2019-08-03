@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lnrtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lnrthree"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="11dp"
+                    android:src="@drawable/dotsign" />
+
+                <TextView
+                    android:id="@+id/pick11"
+                    android:layout_width="370dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/montserrat"
+                     android:singleLine="true"
+                    android:text="" />
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lnrfour"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+           >
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="11dp"
+                    android:src="@drawable/reddot" />
+
+                <TextView
+                    android:id="@+id/drop11"
+                    android:layout_width="370dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text=""
+                    android:singleLine="true"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginRight="15dp">
+
+        <!--margin top is 320 -->
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Tata Ace " />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="1dp">
+
+                    <ImageView
+                        android:id="@+id/tempo"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/autoricksaw" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/tvrate1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="$" />
+
+                    <TextView
+                        android:id="@+id/tempo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="1dp"
+                        android:text="0" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Champion " />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="91dp"
+                    android:layout_marginTop="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/minitruck"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/minitruck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp">
+
+                    <TextView
+                        android:id="@+id/minirate1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="$" />
+
+                    <TextView
+                        android:id="@+id/minitruck1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text="0" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Truck" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="91dp"
+                    android:layout_marginTop="1dp">
+
+
+                    <ImageView
+                        android:id="@+id/truck"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/trucking" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp">
+
+                    <TextView
+                        android:id="@+id/truckrate1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="$" />
+
+                    <TextView
+                        android:id="@+id/truck1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text="0" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+
+
+

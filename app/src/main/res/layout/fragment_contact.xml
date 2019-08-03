@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/goodsapp_background"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="402dp"
+            android:layout_height="88dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:text="M - 101, Amrapali Zodiac, Sector 120, Noida, Uttar Pradesh 201301" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="31dp"
+                android:src="@drawable/ic_location_on_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="hemrajdangi26@gmail.com,                                  dangihemraj61@gmail.com" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="90dp">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_mail_black_24dp"
+
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp">
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="12dp"
+                android:text="9602401626,7976684793" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="180dp">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/ic_phone_black_24dp"
+
+                />
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+
+
+

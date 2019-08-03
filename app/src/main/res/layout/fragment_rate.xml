@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goodsapp_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Base Fare :                              $ 100.0"
+
+            android:textSize="13dp"
+           android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="70dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pricing Par Km :                    $ 21.0 / km(after 1 km )"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tata Ace"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="100dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Capacity :                                750 Kg"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="135dp"
+        android:background="#B8B8BE" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Champion"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="190dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Base Fare :                              $ 150.0"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="220dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pricing Par Km :                    $ 15.0 / km(after 1 km )"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="250dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Capacity :                                1000 Kg"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="285dp"
+        android:background="#B8B8BE" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Truck"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="340dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Base Fare :                              $ 200.0"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="370dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pricing Par Km :                    $ 25.0 / km(after 1 km )"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="400dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Capacity :                                1020 Kg"
+
+            android:textSize="13dp"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/montserrat"/>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

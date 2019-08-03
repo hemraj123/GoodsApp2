@@ -1,0 +1,350 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/goodsapp_background">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_margin="3dp"
+
+           app:cardCornerRadius="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/lnfour"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/dotsign" />
+
+                <TextView
+
+                    android:layout_width="370dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="5dp"
+                    android:text=" PICK UP LOCATION"
+                    app:fontFamily="@font/montserrat" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnrthree"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="33dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/pickup1"
+                    android:layout_width="350dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="24dp"
+                    android:text=""
+                    app:fontFamily="@font/montserrat"
+                    android:singleLine="true"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="68dp"
+                android:background="#B8B8BE" />
+
+            <LinearLayout
+                android:id="@+id/lnsix"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="74dp"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/reddot" />
+
+                <TextView
+
+                    android:layout_width="370dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="montserrat"
+                    android:text="DROP LOCATION"
+                    app:fontFamily="@font/montserrat" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnrfour"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                      android:id="@+id/drop1"
+                    android:layout_width="350dp"
+                    android:layout_height="25dp"
+
+                    android:layout_marginLeft="24dp"
+                    android:text=""
+                    app:fontFamily="@font/montserrat"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/ic_distance"
+                    android:text="Distance :"
+                    app:fontFamily="@font/montserrat" />
+
+                <TextView
+                    android:id="@+id/tvDistance1"
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="8dp"
+                    android:text="0 km"
+                    app:fontFamily="@font/montserrat" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_marginLeft="27dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="42dp"
+                        android:layout_height="19dp"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="7dp"
+                        android:text="Time:"
+                        app:fontFamily="@font/montserrat" />
+
+                    <TextView
+                        android:id="@+id/tvDuration1"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="7dp"
+                        android:fontFamily="montserrat"
+                        android:text="0 min"
+                        app:fontFamily="@font/montserrat" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:layout_margin="13dp"
+                android:background="#8F8E8E"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="402dp"
+                    android:layout_height="201dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/linear5"
+                        android:layout_width="392dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp">
+
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="montserrat"
+                            android:text="Fare "
+                            app:fontFamily="@font/montserrat" />
+
+
+                        <TextView
+                            android:id="@+id/tvcost"
+                            android:layout_width="80dp"
+                            android:layout_height="25dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="15dp"
+                            android:text="0"
+                            app:fontFamily="@font/montserrat" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lnrfive"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/name"
+                            android:layout_width="395dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="5dp"
+                            android:ems="13"
+                            android:fontFamily="@font/montserrat"
+                            android:hint="Enter Name"
+
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lnrsix"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp">
+
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/mobile_no"
+                            android:layout_width="388dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="5dp"
+                            android:ems="13"
+                            android:fontFamily="@font/montserrat"
+                            android:hint="Enter Mobile No"
+                            android:inputType="phone" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lnrseven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat"
+
+                            android:text="Payment Mode ::" />
+
+                        <TextView
+
+                            android:layout_width="66dp"
+                            android:layout_height="29dp"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Cash" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="145dp">
+
+        <!-- top margin  is 100 -->
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/amitbutton"
+            android:fontFamily="@font/montserrat"
+            android:text="CONFIRM BOOK"
+            android:textColor="#ffffff"
+            android:id="@+id/confirm_book"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
